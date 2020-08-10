@@ -1,5 +1,5 @@
 var request = require("request");
-var geocode = require("./utils/geocode");
+const geocode = require("./utils/geocode");
 var express = require("express");
 
 var path = require("path");
