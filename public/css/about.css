@@ -1,0 +1,19 @@
+.img img{
+    width:300px;
+    height: 350px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:2px solid black;
+  border-radius:30px;
+  margin-top: 30px;
+    
+}
+
+.img img:hover{
+transform: translateX(-2px);
+transition: 1s;
+
+
+
+}
