@@ -19,7 +19,7 @@ function search(e) {
     e.preventDefault();
     var y = document.querySelector("#loca");
     var location = y.value;
-    fetch("http://localhost:3000/weather?address="+location).then((res)=>{
+    fetch("/weather?address="+location).then((res)=>{
     res.json().then(re=>{
         z.innerHTML="the temperature is " + re.temp + " and the humidity is "+ re.humidity;
         y.value = "";
